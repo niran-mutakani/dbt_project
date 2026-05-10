@@ -1,0 +1,6 @@
+sources:
+  - name: tb_fps_srcs
+    schema: stg_sch
+    tables:
+      - name: trail_balance_table
+      - name: fpsl_table
