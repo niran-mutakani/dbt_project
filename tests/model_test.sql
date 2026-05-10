@@ -1,1 +1,1 @@
-select * from finance_controls_results where PASS_FAIL_FLAG = 'FAIL'
+select * from {{ref('finance_controls_results')}} where PASS_FAIL_FLAG = 'FAIL'
